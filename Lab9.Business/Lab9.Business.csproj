@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab9.DAL\Lab9.DAL.csproj" />
+    <ProjectReference Include="..\Lab9.Domain\Lab9.Domain.csproj" />
+    <ProjectReference Include="..\Lab9.TestData\Lab9.TestData.csproj" />
+  </ItemGroup>
+
+</Project>
